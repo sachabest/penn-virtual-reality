@@ -1,18 +1,22 @@
 <h2>Syllabus</h2>
 
-<table class="table table-bordered-table-hover">
+<table class="table table-bordered table-hover">
     <thead>
         <th>Date</th>
-        <th>Topic<th>
+        <th>Topic</th>
         <th>Recording</th>
         <th>Assignments</th>
-    <thead>
+    </thead>
     <tbody>
         <tr ng-repeat="class in ctrl.classes">
             <td ng-bind="::class.date"></td>
             <td ng-bind="::class.topic"></td>
             <td><a ng-click="class.recording" ng-bind="::class.recording"></a></td>
-            <td ng-bind="::class.assignments"></td>
+            <td>
+                <div ng-repeat="assignment in class.assignments">
+                    <a ng-click="assignment.link" ng-bind="::assignment.name"></a>
+                </div>
+            </td>
         </tr>
     </tbody>
 </table>
