@@ -12,7 +12,7 @@ var cis568;
                         "assignments": [
                             {
                                 "name": 'Survey',
-                                "link": 'foo'
+                                "link": 'https://docs.google.com/document/d/10VW1gqpBvRblBfY7fMgbAzmb7kFKb82e3Izhps_t7KI/edit?usp=sharing'
                             }
                         ]
                     },
