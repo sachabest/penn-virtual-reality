@@ -20,6 +20,12 @@ namespace cis568.main {
             controller: 'HomeController',
             controllerAs: 'ctrl',
         })
+        .state('main.lectures', {
+            url: 'lectures',
+            templateUrl: 'html/lectures.html',
+            controller: 'LecturesController',
+            controllerAs: 'ctrl'
+        })
         ;
     });
 }
