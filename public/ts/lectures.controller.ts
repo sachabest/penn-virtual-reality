@@ -9,7 +9,7 @@ namespace cis568.main {
             {
                 "date": '01/12/17',
                 "topic": 'Introduction and Demos',
-                "recording": 'https://www.youtube.com/watch?v=bY4wAlCicf8',
+                "recording": 'https://youtu.be/dcMHIaO-K-4',
                 "assignments": [
                     {
                         "name": 'Survey',
