@@ -99,7 +99,7 @@ var cis568;
                         "assignments": [
                             {
                                 "name": 'Graphics Handwritten',
-                                "link": 'foo'
+                                "link": 'https://docs.google.com/document/d/1Ij3S_3zrBSl_7sbwDZeJV-Em1Fmkz2-ffyOX8SfLtyI/edit?usp=sharing'
                             }
                         ]
                     },
@@ -107,7 +107,12 @@ var cis568;
                         "date": '01/24/17',
                         "topic": 'Three.js basics and OpenGL',
                         "recording": 'none',
-                        "assignments": []
+                        "assignments": [
+                            {
+                                "name": 'Three.js project',
+                                "link": ''
+                            }
+                        ]
                     }
                 ];
             }
