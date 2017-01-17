@@ -23,7 +23,7 @@ var cis568;
                         "assignments": [
                             {
                                 "name": 'Graphics Handwritten',
-                                "link": 'https://docs.google.com/document/d/1Ij3S_3zrBSl_7sbwDZeJV-Em1Fmkz2-ffyOX8SfLtyI/edit?usp=sharing'
+                                "link": 'https://youtu.be/dd8OU_3ayrg'
                             }
                         ]
                     },
