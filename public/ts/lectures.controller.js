@@ -19,11 +19,11 @@ var cis568;
                     {
                         "date": '01/17/17',
                         "topic": 'Graphics in 90 Minutes',
-                        "recording": 'https://www.youtube.com/watch?v=MNQFxZWHWVA',
+                        "recording": 'https://youtu.be/dd8OU_3ayrg',
                         "assignments": [
                             {
                                 "name": 'Graphics Handwritten',
-                                "link": 'https://youtu.be/dd8OU_3ayrg'
+                                "link": 'https://docs.google.com/document/d/1Ij3S_3zrBSl_7sbwDZeJV-Em1Fmkz2-ffyOX8SfLtyI/edit?usp=sharing'
                             }
                         ]
                     },
