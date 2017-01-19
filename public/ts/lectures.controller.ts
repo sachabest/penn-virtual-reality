@@ -55,7 +55,7 @@ namespace cis568.main {
             {
                 "date": '01/19/17',
                 "topic": 'Teh rest of Graphics in another 90 minutes',
-                "recording": 'none',
+                "recording": 'https://youtu.be/MxxumFDt6Ek',
                 "assignments": 
                 [
                     {
