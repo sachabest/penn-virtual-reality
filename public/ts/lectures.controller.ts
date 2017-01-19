@@ -1,11 +1,35 @@
 namespace cis568.main {
 
+    export interface Assignment {
+        name: string;
+        link: string;
+    }
+
+    export interface Class {
+        date: string;
+        topic: string;
+        recording: string;
+        assignments: Assignment[];
+    }
     export class LecturesController {
 
         constructor() {            
         }
 
-        private classes = [
+        private datePattern = "/(\d{2})\/(\d{2})\/(\d{4})/;";
+
+        private getRowClass = (classObject: Class) => {
+            let date = new Date(classObject.date.replace(this.datePattern, "$3/$2/$1"));
+            let today = new Date();
+            if (date.toDateString() == today.toDateString()) {
+                return "success";
+            } else if (date < today) {
+                return "active"
+            }
+            return "";
+        }
+
+        private classes: Class[] = [
             {
                 "date": '01/12/17',
                 "topic": 'Introduction and Demos',
@@ -29,6 +53,18 @@ namespace cis568.main {
                 ]
             },
             {
+                "date": '01/19/17',
+                "topic": 'Teh rest of Graphics in another 90 minutes',
+                "recording": 'none',
+                "assignments": 
+                [
+                    {
+                        "name": 'Go to PennApps',
+                        "link": 'https://pennapps.com'
+                    }
+                ]
+            },
+            {
                 "date": '01/24/17',
                 "topic": 'Three.js basics and OpenGL',
                 "recording": 'none',
@@ -37,6 +73,15 @@ namespace cis568.main {
                         "name": 'Three.js project',
                         "link": ''
                     }
+                ]
+            },
+            {
+                "date": '01/26/17',
+                "topic": 'Advanced Three.js',
+                "recording": 'none',
+                "assignments": 
+                [
+
                 ]
             }
         ];

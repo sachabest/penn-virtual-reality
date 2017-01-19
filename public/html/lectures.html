@@ -8,7 +8,11 @@
         <th>Assignments</th>
     </thead>
     <tbody>
-        <tr ng-repeat="class in ctrl.classes">
+        <p>Note that due to copyright issues, we cannot post the actual slides.
+            gThat said, please feel free to visit any of the course staff to go over the material.
+        </p>
+        <tr ng-repeat="class in ctrl.classes"
+            ng-class="ctrl.getRowClass(class)">
             <td ng-bind="::class.date"></td>
             <td ng-bind="::class.topic"></td>
             <td><a href="{{class.recording}}" ng-bind="::class.recording"></a></td>
