@@ -130,11 +130,11 @@ var cis568;
                     {
                         "date": '01/24/17',
                         "topic": 'Three.js basics and OpenGL',
-                        "recording": 'none',
+                        "recording": 'https://youtu.be/Pg8TG4M-V7o',
                         "assignments": [
                             {
                                 "name": 'Three.js project',
-                                "link": ''
+                                "link": 'https://docs.google.com/document/d/1G0a5_OgVqy5dQ9mHTtOPbZU8ibySzAVlTJY0uG3RmDA/edit?usp=sharing'
                             }
                         ]
                     },
