@@ -26,6 +26,10 @@ var cis568;
                             {
                                 "name": 'Survey',
                                 "link": 'https://docs.google.com/document/d/10VW1gqpBvRblBfY7fMgbAzmb7kFKb82e3Izhps_t7KI/edit?usp=sharing'
+                            },
+                            {
+                                "name": 'Proposal Feedback',
+                                "link": 'https://docs.google.com/document/d/1we4VxLXi1Ywfcaere2z1zyuP3zEk5zWRLU_MIxh_SGE/edit?usp=sharing'
                             }
                         ]
                     },
@@ -64,7 +68,7 @@ var cis568;
                     },
                     {
                         "date": '01/26/17',
-                        "topic": 'Advanced Three.js',
+                        "topic": 'Three.js Demos and Getting Started',
                         "recording": 'none',
                         "assignments": []
                     }
