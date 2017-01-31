@@ -88,7 +88,7 @@ namespace cis568.main {
 
                 ]
             },
-            {
+            {gru
                 "date": '01/31/17',
                 "topic": 'Noise and Three.js Gaze Input',
                 "recording": 'https://youtu.be/ejTNjYWsIwU',
