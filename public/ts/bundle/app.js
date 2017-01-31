@@ -153,7 +153,7 @@ var cis568;
                         "topic": 'Noise and Three.js Gaze Input',
                         "recording": 'https://youtu.be/ejTNjYWsIwU',
                         "assignments": []
-                    },
+                    }
                 ];
             }
             return LecturesController;

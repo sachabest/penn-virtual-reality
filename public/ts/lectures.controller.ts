@@ -96,7 +96,7 @@ namespace cis568.main {
                 [
 
                 ]
-            },
+            }
         ];
     }
 
