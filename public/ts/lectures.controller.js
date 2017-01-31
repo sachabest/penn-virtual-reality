@@ -72,7 +72,8 @@ var cis568;
                         "recording": 'none',
                         "assignments": []
                     },
-                    { gru: "date", '01/31/17': ,
+                    {
+                        "date": '01/31/17',
                         "topic": 'Noise and Three.js Gaze Input',
                         "recording": 'https://youtu.be/ejTNjYWsIwU',
                         "assignments": []
