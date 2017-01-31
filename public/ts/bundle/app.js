@@ -147,7 +147,13 @@ var cis568;
                         "topic": 'Three.js Demos and Getting Started',
                         "recording": 'none',
                         "assignments": []
-                    }
+                    },
+                    {
+                        "date": '01/31/17',
+                        "topic": 'Noise and Three.js Gaze Input',
+                        "recording": 'https://youtu.be/ejTNjYWsIwU',
+                        "assignments": []
+                    },
                 ];
             }
             return LecturesController;
