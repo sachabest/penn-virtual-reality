@@ -31,7 +31,7 @@ namespace cis568.main {
 
         private classes: Class[] = [
             {
-                "date": '01/102/17',
+                "date": '01/12/17',
                 "topic": 'Introduction and Demos',
                 "recording": 'https://youtu.be/dcMHIaO-K-4',
                 "assignments": [
