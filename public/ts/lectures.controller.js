@@ -7,7 +7,7 @@ var cis568;
                 var _this = this;
                 this.datePattern = "/(\d{2})\/(\d{2})\/(\d{4})/;";
                 this.getRowClass = function (classObject) {
-                    var date = new Date(classObject.date.replace(_this.datePattern, "$3/$2/$1"));
+                    var date = new Date(classObject.date.replace(_this.datePattern, "$3/$02/$1"));
                     var today = new Date();
                     if (date.toDateString() == today.toDateString()) {
                         return "success";
@@ -19,7 +19,7 @@ var cis568;
                 };
                 this.classes = [
                     {
-                        "date": '01/12/17',
+                        "date": '01/102/17',
                         "topic": 'Introduction and Demos',
                         "recording": 'https://youtu.be/dcMHIaO-K-4',
                         "assignments": [
@@ -76,6 +76,60 @@ var cis568;
                         "date": '01/31/17',
                         "topic": 'Noise and Three.js Gaze Input',
                         "recording": 'https://youtu.be/ejTNjYWsIwU',
+                        "assignments": []
+                    },
+                    {
+                        "date": '02/02/17',
+                        "topic": 'Git Review and Unreal Engine 4',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '02/07/17',
+                        "topic": 'Unreal Engine 4: Game Logic',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '02/09/17',
+                        "topic": 'Unreal Engine 4: Hands on C++',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '02/14/17',
+                        "topic": 'Unreal Engine 4: Rendering, Particles, and Collisions',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '02/16/17',
+                        "topic": 'Alpha Game Demos, Unreal Engine 4: Networking/Multiplayer',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '02/21/17',
+                        "topic": 'Beta Game Demos, Feedback, and Work Session',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '02/23/17',
+                        "topic": 'Unreal Engine 4: VR Design Optimizations',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '02/28/17',
+                        "topic": 'Final Game Demos',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '03/02/17',
+                        "topic": 'CLASS CANCELLED - Staff at GDC',
+                        "recording": 'none',
                         "assignments": []
                     }
                 ];
