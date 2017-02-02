@@ -81,7 +81,7 @@ var cis568;
                     {
                         "date": '02/02/17',
                         "topic": 'Git Review and Unreal Engine 4',
-                        "recording": 'none',
+                        "recording": 'https://youtu.be/6AZ38Nw1ipk',
                         "assignments": []
                     },
                     {
