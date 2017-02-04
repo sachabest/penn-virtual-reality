@@ -12,19 +12,34 @@ namespace cis568.main {
             templateUrl: 'html/layout.html',
             controller: 'AppController',
             controllerAs: 'ctrl',
-            abstract: true
+            abstract: true,
+            resolve: {
+                $title: ($title) => {
+                    return 'Penn Virtual Reality';
+                }
+            }
         })
         .state('main.home', {
             url: '',
             templateUrl: 'html/home.html',
             controller: 'HomeController',
             controllerAs: 'ctrl',
+            resolve: {
+                $title: ($title) => {
+                    return $title + ' - Home';
+                }
+            }
         })
         .state('main.lectures', {
             url: 'lectures',
             templateUrl: 'html/lectures.html',
             controller: 'LecturesController',
-            controllerAs: 'ctrl'
+            controllerAs: 'ctrl',
+            resolve: {
+                $title: ($title) => {
+                    return $title + ' - Lectures';
+                }
+            }
         })
         ;
     });

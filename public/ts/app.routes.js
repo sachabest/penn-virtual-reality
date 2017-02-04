@@ -13,19 +13,34 @@ var cis568;
                 templateUrl: 'html/layout.html',
                 controller: 'AppController',
                 controllerAs: 'ctrl',
-                abstract: true
+                abstract: true,
+                resolve: {
+                    $title: function ($title) {
+                        return 'Penn Virtual Reality';
+                    }
+                }
             })
                 .state('main.home', {
                 url: '',
                 templateUrl: 'html/home.html',
                 controller: 'HomeController',
                 controllerAs: 'ctrl',
+                resolve: {
+                    $title: function ($title) {
+                        return $title + ' - Home';
+                    }
+                }
             })
                 .state('main.lectures', {
                 url: 'lectures',
                 templateUrl: 'html/lectures.html',
                 controller: 'LecturesController',
-                controllerAs: 'ctrl'
+                controllerAs: 'ctrl',
+                resolve: {
+                    $title: function ($title) {
+                        return $title + ' - Lectures';
+                    }
+                }
             });
         });
     })(main = cis568.main || (cis568.main = {}));

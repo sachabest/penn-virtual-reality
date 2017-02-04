@@ -15,6 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "threejs": "*"
+    "threejs": "*",
+    "angular-ui-router-title": "^0.1.1"
   }
 }
