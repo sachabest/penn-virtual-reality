@@ -87,7 +87,7 @@ var cis568;
                     {
                         "date": '02/07/17',
                         "topic": 'Unreal Engine 4: Game Logic',
-                        "recording": 'none',
+                        "recording": 'https://youtu.be/t3lYjhQAxsg',
                         "assignments": [
                             {
                                 "name": 'Unreal Project',
