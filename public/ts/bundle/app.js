@@ -205,14 +205,14 @@ var cis568;
                     },
                     {
                         "date": '02/09/17',
-                        "topic": 'Unreal Engine 4: Hands on C++',
+                        "topic": 'CLASS CANCELLED - Snow',
                         "recording": 'none',
                         "assignments": []
                     },
                     {
                         "date": '02/14/17',
-                        "topic": 'Unreal Engine 4: Rendering, Particles, and Collisions',
-                        "recording": 'none',
+                        "topic": 'Unreal Engine 4: BSPs and Materials',
+                        "recording": 'https://youtu.be/RADrikOKorg',
                         "assignments": []
                     },
                     {
@@ -254,3 +254,23 @@ var cis568;
     })(main = cis568.main || (cis568.main = {}));
 })(cis568 || (cis568 = {}));
 //# sourceMappingURL=lectures.controller.js.map
+var cis568;
+(function (cis568) {
+    var main;
+    (function (main) {
+        var ProjectsController = (function () {
+            function ProjectsController($http) {
+                this.$http = $http;
+            }
+            ProjectsController.prototype.getThreeProjects = function () {
+                return this.$http.get('/api/projects/three').then(function (projects) {
+                    return projects;
+                });
+            };
+            return ProjectsController;
+        }());
+        main.ProjectsController = ProjectsController;
+        main.getModule().controller("ProjectsController", main.HomeController);
+    })(main = cis568.main || (cis568.main = {}));
+})(cis568 || (cis568 = {}));
+//# sourceMappingURL=projects.controller.js.map

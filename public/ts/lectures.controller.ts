@@ -116,14 +116,14 @@ namespace cis568.main {
             },
             {
                 "date": '02/09/17',
-                "topic": 'Unreal Engine 4: Hands on C++',
+                "topic": 'CLASS CANCELLED - Snow',
                 "recording": 'none',
                 "assignments": []
             },
             {
                 "date": '02/14/17',
-                "topic": 'Unreal Engine 4: Rendering, Particles, and Collisions',
-                "recording": 'none',
+                "topic": 'Unreal Engine 4: BSPs and Materials',
+                "recording": 'https://youtu.be/RADrikOKorg',
                 "assignments": []
             },
             {
