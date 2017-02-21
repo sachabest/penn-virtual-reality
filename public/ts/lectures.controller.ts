@@ -134,13 +134,13 @@ namespace cis568.main {
             },
             {
                 "date": '02/21/17',
-                "topic": 'Beta Game Demos, Feedback, and Work Session',
+                "topic": 'Unreal Engine 4: C++',
                 "recording": 'none',
                 "assignments": []
             },
             {
                 "date": '02/23/17',
-                "topic": 'Unreal Engine 4: VR Design Optimizations',
+                "topic": 'Beta Game Demos, Feedback, and Work Session',
                 "recording": 'none',
                 "assignments": []
             },
