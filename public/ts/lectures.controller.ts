@@ -146,13 +146,13 @@ namespace cis568.main {
             },
             {
                 "date": '02/28/17',
-                "topic": 'Final Game Demos',
+                "topic": 'VR Design Optimizations',
                 "recording": 'none',
                 "assignments": []
             },
             {
                 "date": '03/02/17',
-                "topic": 'CLASS CANCELLED - Staff at GDC',
+                "topic": 'Final Game Demos',
                 "recording": 'none',
                 "assignments": []
             }
