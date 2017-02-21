@@ -135,7 +135,7 @@ namespace cis568.main {
             {
                 "date": '02/21/17',
                 "topic": 'Unreal Engine 4: C++',
-                "recording": 'none',
+                "recording": 'https://youtu.be/1S5IBjzD8Ck',
                 "assignments": []
             },
             {
