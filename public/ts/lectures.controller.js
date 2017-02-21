@@ -97,7 +97,7 @@ var cis568;
                     },
                     {
                         "date": '02/09/17',
-                        "topic": 'CLASS CANCELLED - Snow',
+                        "topic": 'CLASS CANCELLED',
                         "recording": 'none',
                         "assignments": []
                     },

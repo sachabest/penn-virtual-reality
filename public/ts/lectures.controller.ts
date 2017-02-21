@@ -116,7 +116,7 @@ namespace cis568.main {
             },
             {
                 "date": '02/09/17',
-                "topic": 'CLASS CANCELLED - Snow',
+                "topic": 'CLASS CANCELLED',
                 "recording": 'none',
                 "assignments": []
             },
