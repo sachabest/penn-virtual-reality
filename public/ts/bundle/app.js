@@ -236,7 +236,7 @@ var cis568;
                     {
                         "date": '02/28/17',
                         "topic": 'VR Design Optimizations',
-                        "recording": 'none',
+                        "recording": 'https://youtu.be/kNZvs0-LgRU',
                         "assignments": []
                     },
                     {
