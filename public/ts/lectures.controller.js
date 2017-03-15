@@ -133,10 +133,82 @@ var cis568;
                     },
                     {
                         "date": '03/02/17',
-                        "topic": 'Final Game Demos',
+                        "topic": 'Semi-Final Game Demos',
                         "recording": 'none',
                         "assignments": []
-                    }
+                    },
+                    {
+                        "date": '03/16/17',
+                        "topic": 'Game Design Theory: Modeling the Madness',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '03/21/17',
+                        "topic": 'Final Project: Team Formation and Ideation',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '03/23/17',
+                        "topic": 'Unreal Project Demos',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '03/30/17',
+                        "topic": 'TBD',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '04/04/17',
+                        "topic": 'Modding Robo Recall',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '04/06/17',
+                        "topic": 'Final Project: First Playtest',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '04/11/17',
+                        "topic": 'Unreal Engine 4: Particle Systems and Rendering',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '04/13/17',
+                        "topic": 'Final Project: Beta Playtest',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '04/18/17',
+                        "topic": 'TBD',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '04/20/17',
+                        "topic": 'Final Project: Last Playtest',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '04/25/17',
+                        "topic": 'Surprise!',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '05/02/17',
+                        "topic": 'Final Project: Final Demos',
+                        "recording": 'none',
+                        "assignments": []
+                    },
                 ];
             }
             return LecturesController;
