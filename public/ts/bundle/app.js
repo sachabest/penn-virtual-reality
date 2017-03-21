@@ -255,7 +255,10 @@ var cis568;
                         "date": '03/21/17',
                         "topic": 'Final Project: Team Formation and Ideation',
                         "recording": 'none',
-                        "assignments": []
+                        "assignments": [{
+                                "name": "Final Project Plan",
+                                "link": "https://docs.google.com/document/d/1z50gB10XYd0YN1UyjzmjZWBmVq7rNci6hdiS4lmDvN0/edit?usp=sharing"
+                            }]
                     },
                     {
                         "date": '03/23/17',
