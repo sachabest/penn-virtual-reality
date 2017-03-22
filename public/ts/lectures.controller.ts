@@ -188,8 +188,8 @@ namespace cis568.main {
                 "assignments": []
             },
             {
-                "date": '03/28/17',
-                "topic": 'Guest Lecture: Interaction Design in VR',
+                "date": '03/30/17',
+                "topic": 'Project Plan Feedback Review',
                 "recording": 'none',
                 "assignments": []
             },
