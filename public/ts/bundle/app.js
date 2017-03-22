@@ -258,6 +258,10 @@ var cis568;
                         "assignments": [{
                                 "name": "Final Project Plan",
                                 "link": "https://docs.google.com/document/d/1z50gB10XYd0YN1UyjzmjZWBmVq7rNci6hdiS4lmDvN0/edit?usp=sharing"
+                            },
+                            {
+                                "name": "Final Project Requirements",
+                                "link": "https://docs.google.com/document/d/1dMY0CteYuMdjSTpXzI_48hEdw9d6tET6sWH5YJYTi1s/edit?usp=sharing"
                             }]
                     },
                     {
@@ -267,8 +271,14 @@ var cis568;
                         "assignments": []
                     },
                     {
-                        "date": '03/30/17',
-                        "topic": 'TBD',
+                        "date": '03/28/17',
+                        "topic": 'Guest Lecture: Interaction Design in VR',
+                        "recording": 'none',
+                        "assignments": []
+                    },
+                    {
+                        "date": '03/28/17',
+                        "topic": 'Guest Lecture: Interaction Design in VR',
                         "recording": 'none',
                         "assignments": []
                     },
